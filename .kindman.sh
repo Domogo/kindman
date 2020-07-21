@@ -16,7 +16,7 @@ function kindman() {
 
     # create a dir in which to store the books
     # -p flag - don't create dir if already exists
-    kindle_location=/run/media/domagoj/Kindle/documents
+    kindle_location=/media/ds/Kindle/documents
     book_location=$HOME/documents/books/$local_directory
     mkdir -p $kindle_location/$kindle_directory
 
